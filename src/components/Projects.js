@@ -12,9 +12,9 @@ const Projects = () => {
         "A fully responsive e-commerce platform built with React, featuring product filtering, cart functionality, and user authentication.",
       technologies: ["React", "CSS3", "JavaScript", "Context API"],
       category: "react",
-      image: "project1",
-      link: "#",
-      github: "#",
+      image: "/images/project-1.png",
+      link: "https://beauty-bliss-shop.vercel.app/",
+      github: "https://github.com/refiilwemotaung-cpu/E-commerce-React-App",
     },
     {
       id: 2,
@@ -23,31 +23,38 @@ const Projects = () => {
         "Real-time weather application with location-based forecasts, interactive maps, and beautiful data visualizations.",
       technologies: ["JavaScript", "HTML5", "CSS3", "API Integration"],
       category: "javascript",
-      image: "project2",
-      link: "#",
-      github: "#",
+      image: "/images/project-2.png",
+      link: "https://breeze-tracker.vercel.app/",
+      github: "https://github.com/refiilwemotaung-cpu/react-weather-app",
     },
     {
       id: 3,
-      title: "Task Management System",
+      title: "AI Powered Smart Planner",
       description:
-        "Productivity application for task management with drag-and-drop functionality, deadlines, and team collaboration features.",
-      technologies: ["React", "Bootstrap", "Local Storage", "JavaScript"],
+        "An intelligent task management application that uses AI to prioritize tasks, suggest optimal schedules, and provide productivity insights. Features smart reminders, goal tracking, and automated scheduling.",
+      technologies: [
+        "React",
+        "AI Integration",
+        "Machine Learning",
+        "Local Storage",
+        "JavaScript",
+        "CSS3",
+      ],
       category: "react",
-      image: "project3",
-      link: "#",
-      github: "#",
+      image: "images/project-3.png",
+      link: "https://ai-powered-smart-planner.vercel.app/",
+      github: "https://github.com/refiilwemotaung-cpu/ai-powered-smart-planner",
     },
     {
       id: 4,
-      title: "AI-Powered Chat Interface",
+      title: "Recipe Finder App",
       description:
-        "Modern chat interface with AI integration, real-time messaging, and smart response suggestions using basic AI concepts.",
-      technologies: ["JavaScript", "AI Basics", "CSS3", "WebSockets"],
+        "A comprehensive recipe discovery platform that helps users find meals based on available ingredients, dietary restrictions, and cooking time. Features advanced filtering and step-by-step instructions.",
+      technologies: ["JavaScript", "CSS3", "HTML5", "Responsive Design"],
       category: "javascript",
-      image: "project4",
-      link: "#",
-      github: "#",
+      image: "/images/project-4.png",
+      link: "https://cupboardcuisine.vercel.app/",
+      github: "https://github.com/refiilwemotaung-cpu/Recipe-Finder-App",
     },
   ];
 
@@ -85,15 +92,34 @@ const Projects = () => {
           {filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="project-img"
+                  onError={(e) => {
+                    e.target.style.display = "none";
+                    e.target.nextSibling.style.display = "flex";
+                  }}
+                />
                 <div className="image-placeholder">
-                  <span>{project.image}</span>
+                  <span>Project Image</span>
                 </div>
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href={project.link} className="project-link">
+                    <a
+                      href={project.link}
+                      className="project-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Live Demo
                     </a>
-                    <a href={project.github} className="project-link">
+                    <a
+                      href={project.github}
+                      className="project-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       GitHub
                     </a>
                   </div>
