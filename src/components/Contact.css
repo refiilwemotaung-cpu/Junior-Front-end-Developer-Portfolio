@@ -130,6 +130,42 @@
   margin-top: 1rem;
 }
 
+.direct-contact {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(153, 107, 92, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(153, 107, 92, 0.2);
+  text-align: center;
+}
+
+.direct-contact h4 {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.direct-contact p {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.direct-contact .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.form-note {
+  font-size: 0.8rem !important;
+  color: var(--text-muted) !important;
+  text-align: center;
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+  opacity: 0.7;
+  font-style: italic;
+}
+
 @media (max-width: 968px) {
   .contact-content {
     grid-template-columns: 1fr;
