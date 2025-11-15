@@ -14,8 +14,8 @@ const Hero = () => {
           <div className="hero-text">
             <div className="accent-line"></div>
             <h1>
-              <span className="name-line">Your Name</span>
-              <span className="title-line">Front-End Developer</span>
+              <span className="name-line">Refilwe Motaung</span>
+              <span className="title-line">Junior Front-End Developer</span>
             </h1>
             <p className="hero-description">
               Crafting digital experiences with modern technologies.
@@ -33,9 +33,11 @@ const Hero = () => {
           <div className="hero-visual">
             <div className="image-container">
               <div className="main-image">
-                <div className="image-placeholder">
-                  <span>Your Photo</span>
-                </div>
+                <img
+                  src="/images/Refilwe.PNG"
+                  alt="Refilwe Motaung - Junior Frontend Developer"
+                  className="profile-photo"
+                />
               </div>
               <div className="image-frame"></div>
             </div>
