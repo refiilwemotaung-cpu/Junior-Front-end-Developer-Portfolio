@@ -14,7 +14,7 @@ const Certifications = () => {
       name: "Introduction to Web Development",
       issuer: "SheCodes",
       date: "2025",
-      file: "intoduction-to-web-development.png",
+      file: "introduction-to-web-development.png",
       skills: ["HTML", "CSS", "JavaScript", "VS Code"],
     },
     {
@@ -28,7 +28,7 @@ const Certifications = () => {
       name: "Introduction to Artificial Intelligence",
       issuer: "SheCodes",
       date: "2025",
-      file: "intoduction-to-artificial-intelligence.png",
+      file: "introduction-to-artificial-intelligence.png",
       skills: [],
     },
     {
@@ -84,7 +84,7 @@ const Certifications = () => {
       name: "Foundations of User Experience (UX) Design",
       issuer: "Coursera",
       date: "2025",
-      file: "foundations-of-ux.pdf",
+      file: "foundations-of-ux-design.pdf",
       skills: ["Foundations of User Experience (UX) Design"],
     },
     {
