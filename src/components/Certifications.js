@@ -4,6 +4,18 @@ import "./Certifications.css";
 const Certifications = () => {
   const certifications = [
     {
+      name: "Google UX Design",
+      issuer: "Coursera",
+      date: "2026",
+      file: "Google UX Design.pdf",
+      skills: [
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing",
+      ],
+    },
+    {
       name: "Introduction to Coding",
       issuer: "SheCodes",
       date: "2024",
@@ -80,13 +92,7 @@ const Certifications = () => {
         "Security",
       ],
     },
-    {
-      name: "Foundations of User Experience (UX) Design",
-      issuer: "Coursera",
-      date: "2025",
-      file: "foundations-of-ux-design.pdf",
-      skills: ["Foundations of User Experience (UX) Design"],
-    },
+
     {
       name: "Full Stack Development",
       issuer: "IT Varsity",
@@ -120,10 +126,10 @@ const Certifications = () => {
                   {cert.issuer === "SheCodes"
                     ? "👩‍💻"
                     : cert.issuer === "Coursera"
-                    ? "🎓"
-                    : cert.issuer === "IT Varsity"
-                    ? "🏫"
-                    : "📜"}
+                      ? "🎓"
+                      : cert.issuer === "IT Varsity"
+                        ? "🏫"
+                        : "📜"}
                 </div>
                 <div className="cert-info">
                   <h3>{cert.name}</h3>
