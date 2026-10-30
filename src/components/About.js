@@ -20,27 +20,48 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-description">
-              I'm a passionate junior front-end developer with expertise in
-              modern web technologies. I love creating beautiful, functional web
-              experiences that make a difference. My journey in web development
-              started with curiosity and has evolved into a passion for building
-              user-centric applications.
+              I'm a Junior Frontend Developer and UX Design enthusiast with a
+              background in financial services and administration. I enjoy
+              creating responsive, accessible, and user-friendly digital
+              experiences that bring together thoughtful design and functional
+              development. Having completed the Google UX Design Professional
+              Certificate and SheCodes Foundation web development training, I've
+              developed a foundation in user research, wireframing, prototyping,
+              usability testing, and frontend technologies such as HTML, CSS,
+              JavaScript, and React. My professional journey also includes
+              experience at First National Bank and Liberty Corporate, where I
+              worked across banking operations, quality assurance, and pension
+              fund administration. These experiences strengthened my attention
+              to detail, analytical thinking, problem-solving abilities, and
+              understanding of structured business processes. I bring these
+              different perspectives into my approach to digital development,
+              with an interest in creating solutions that are not only
+              technically functional but also intuitive and meaningful to the
+              people who use them. I'm continually developing my skills through
+              practical projects, exploring new technologies, and expanding my
+              understanding of UX and frontend development.
             </p>
 
             <div className="about-details">
               <div className="detail-item">
                 <h4>My Approach</h4>
                 <p>
-                  Clean code, responsive design, and user-focused solutions are
-                  at the heart of everything I build.
+                  I believe great digital experiences begin with understanding
+                  the people who use them. I combine user-centred design
+                  principles with clean, responsive frontend development to
+                  create accessible, intuitive, and functional interfaces.
                 </p>
               </div>
 
               <div className="detail-item">
                 <h4>My Passion</h4>
                 <p>
-                  I'm constantly learning and exploring new technologies to stay
-                  at the forefront of web development.
+                  I'm passionate about the intersection of UX design and
+                  frontend development. I enjoy exploring how research,
+                  thoughtful design decisions, and technology can work together
+                  to solve problems and improve everyday digital experiences.
+                  I'm always looking for opportunities to learn, experiment, and
+                  grow.
                 </p>
               </div>
             </div>
@@ -77,7 +98,7 @@ const About = () => {
                   <a
                     href={resumePdfUrl}
                     className="btn primary resume-btn"
-                    download="Refilwe-Motaung-Resume.pdf"
+                    download="Refilwe Motaung Junior UX Frontend Resume.pdf"
                   >
                     📄 PDF Version
                   </a>
