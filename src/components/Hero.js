@@ -15,15 +15,23 @@ const Hero = () => {
             <div className="accent-line"></div>
             <h1>
               <span className="name-line">Refilwe Motaung</span>
-              <span className="title-line">Junior Front-End Developer</span>
+              <span className="title-line">
+                Junior Front-End Developer | UX Design
+              </span>
             </h1>
             <p className="hero-description">
-              Crafting digital experiences with modern technologies.
-              Specializing in React, JavaScript, and responsive design.
+              I build responsive, user-friendly web experiences using HTML, CSS,
+              JavaScript, and React. With a background in financial services and
+              a Google UX Design Professional Certificate, I bring together
+              technical skills, structured problem-solving, and an interest in
+              designing digital experiences around users' needs. I'm continuing
+              to grow my skills through practical projects and exploring how
+              thoughtful UX design and frontend development can work together to
+              create useful digital products.
             </p>
             <div className="hero-buttons">
               <a href="#projects" className="btn primary">
-                View Work
+                View My Projects
               </a>
               <a href="#contact" className="btn secondary">
                 Contact Me
