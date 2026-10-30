@@ -11,7 +11,7 @@ const About = () => {
     "AI Basics",
   ];
 
-  const resumePdfUrl = "/files/Refilwe-Motaung-Resume.pdf";
+  const resumePdfUrl = "/files/Refilwe-Motaung-Junior-UX-Frontend-Resume.pdf";
 
   return (
     <section id="about" className="about section">
